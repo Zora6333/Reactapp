@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kanit:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kanit:ital,wght@1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f3efea;
+  width: 100%;
+  height: 6796px;
+}
+/*Page_1...................................................................*/
+.Page_1 {
+  display: flex;
+  height: 774px;
+}
+.ImgPage_1 img {
+  width: 719px;
+  height: 774px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ContentPage_1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 198.5px;
+  padding-left: 40px;
+  width: 562px;
+}
+.ContentPage_1 p {
+  display: flex;
+  color: #323232;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+.ContentPage_1 h1 {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #57463a;
+  font-size: 48px;
+  font-weight: 50;
+  font-family: "Kanit", sans-serif;
+  line-height: 120%;
+  padding-top: 17px;
+}
+.ContentPage_1 h2 {
+  color: #323232;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  padding-top: 40px;
+}
+.ContentPage_1 .ButtonPage_1 {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 94px;
+}
+.ButtonPage_1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #a1b29f;
+  color: #f6f6f6;
+  text-align: right;
+
+  /* Text */
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 150%;
+}
+.ButtonPage_1 button:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.ButtonPage_1 button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.ButtonPage_1 button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+.IconsPage_1 {
+  display: flex;
+  padding-bottom: 98px;
+  padding-left: 65%;
+  background-color: #f3efea;
+}
+.IconsPage_1 a {
+  padding-right: 40px;
+  background-color: #f3efea;
+}
+.IconsPage_1 a > img {
+  mix-blend-mode: darken;
+  background-color: #f3efea;
+}
+/*Page_2......................................................*/
+.Page_2 {
+  padding-left: 135px;
+  width: 100%;
+}
+.Page_2 h1 {
+  padding-top: 160px;
+}
+.Page_2 ul {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-between;
+}
+.Page_2 ul li {
+  display: flex;
+  text-decoration: underline #715b4b;
+  justify-content: center;
+  width: 298px;
+  flex-direction: column;
+  color: #323232;
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 300;
+  line-height: 150%;
+}
