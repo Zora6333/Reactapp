@@ -138,3 +138,24 @@
   font-weight: 300;
   line-height: 150%;
 }
+.TablePage_2 {
+  display: flex;
+}
+tbody {
+  display: grid;
+  width: 1160px;
+}
+.TablePage_2 tr {
+
+}
+.TablePage_2 td {
+
+  align-items: center;
+  border: 1px solid;
+  width: 290px;
+  height: 240px;
+}
+.TablePage_2 tr td img {
+  height: 100px;
+  width: 100px;
+}

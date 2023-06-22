@@ -44,18 +44,44 @@ const Main = () => {
             <div className="AssortmentPage_2">
               <h1>Более 10 лет мы производим</h1>
               <table className="TablePage_2">
-                <tr>
-                  <td><img src="./src/component/Img/Page 2/door-2 1.jpg"/>Двери</td>
-                  <td><img src="./src/component/Img/Page 2/closet 1.jpg"/>Шкафы</td>
-                  <td><img src="./src/component/Img/Page 2/chair-2 1.jpg"/>Столы и стулья</td>
-                  <td><img src="./src/component/Img/Page 2/drawers 1.jpg"/>Комоды</td>
-                </tr>
-                <tr>
-                  <td><img src="./src/component/Img/Page 2/drawer 1.jpg"/>Тумбы</td>
-                  <td><img src="./src/component/Img/Page 2/gate 1.jpg"/>Арки</td>
-                  <td><img src="./src/component/Img/Page 2/room-divider 1.jpg"/>Перегородки</td>
-                  <td><img src="./src/component/Img/Page 2/bed 1.jpg"/>Кровати</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="./src/component/Img/Page 2/door-2 1.jpg" />
+                      Двери
+                    </td>
+                    <td>
+                      <img src="./src/component/Img/Page 2/closet 1.jpg" />
+                      Шкафы
+                    </td>
+                    <td>
+                      <img src="./src/component/Img/Page 2/chair-2 1.jpg" />
+                      Столы и стулья
+                    </td>
+                    <td>
+                      <img src="./src/component/Img/Page 2/drawers 1.jpg" />
+                      Комоды
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="./src/component/Img/Page 2/drawer 1.jpg" />
+                      Тумбы
+                    </td>
+                    <td>
+                      <img src="./src/component/Img/Page 2/gate 1.jpg" />
+                      Арки
+                    </td>
+                    <td>
+                      <img src="./src/component/Img/Page 2/room-divider 1.jpg" />
+                      Перегородки
+                    </td>
+                    <td>
+                      <img src="./src/component/Img/Page 2/bed 1.jpg" />
+                      Кровати
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>
