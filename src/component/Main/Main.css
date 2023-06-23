@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kanit:ital,wght@1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Kanit:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tenor+Sans&display=swap");
 
 * {
   margin: 0;
@@ -18,6 +17,10 @@
 .Page_1 {
   display: flex;
   height: 774px;
+}
+.SolidPage_1 {
+  width: 100%;
+  border-bottom: solid 1px #000000;
 }
 .ImgPage_1 img {
   width: 719px;
@@ -39,7 +42,7 @@
   color: #323232;
   text-align: right;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 150%;
 }
@@ -50,17 +53,17 @@
   flex-shrink: 0;
   color: #57463a;
   font-size: 48px;
-  font-weight: 50;
-  font-family: "Kanit", sans-serif;
+  font-family: "Tenor Sans", sans-serif;
   line-height: 120%;
   padding-top: 17px;
 }
 .ContentPage_1 h2 {
   color: #323232;
   font-size: 18px;
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 150%;
+  width: 700px;
   padding-top: 40px;
 }
 .ContentPage_1 .ButtonPage_1 {
@@ -78,10 +81,9 @@
   background: #a1b29f;
   color: #f6f6f6;
   text-align: right;
-
-  /* Text */
   font-size: 16px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
   line-height: 150%;
 }
 .ButtonPage_1 button:hover {
@@ -118,40 +120,74 @@
   width: 100%;
 }
 .Page_2 h1 {
+  display: flex;
+  color: #57463a;
+  text-align: center;
+  font-size: 48px;
+  line-height: 120%;
+  font-family: "Tenor Sans", sans-serif;
   padding-top: 160px;
 }
 .Page_2 ul {
   display: flex;
+  justify-content: center;
   padding-top: 100px;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: space-around;
+}
+.AssortmentPage_2 h1 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
 }
 .Page_2 ul li {
   display: flex;
-  text-decoration: underline #715b4b;
   justify-content: center;
   width: 298px;
   flex-direction: column;
   color: #323232;
   text-align: center;
   font-size: 18px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 150%;
+}
+.Solid {
+  display: flex;
+  padding-top: 14px;
+  width: 300px;
+  border-bottom: solid 5px #715b4b;
 }
 .TablePage_2 {
   display: flex;
 }
 tbody {
-  display: grid;
+  border-collapse: collapse;
   width: 1160px;
+  padding-top: 100px;
 }
 .TablePage_2 tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .TablePage_2 td {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   border: 1px solid;
   width: 290px;
   height: 240px;
+  padding-top: 20%;
+}
+.TablePage_2 td p {
+  color: #323232;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 102.99%;
+  padding-top: 20px;
 }
 .TablePage_2 tr td img {
   height: 100px;
@@ -162,13 +198,13 @@ tbody {
   display: flex;
   flex-direction: column;
   padding-top: 160px;
-  padding-left: 140px;
 }
 .Page_3 h1 {
+  padding-left: 140px;
   color: #57463a;
   font-size: 48px;
   font-weight: 50;
-  font-family: Tenor Sans;
+  font-family: "Tenor Sans", sans-serif;
   line-height: 150%;
 }
 .ContentPage_3 {
@@ -180,6 +216,7 @@ tbody {
 .ContentPage_3 .AboutUs_1 img {
   width: 704px;
   height: 475px;
+  padding-left: 0;
 }
 .ContentPage_3 .AboutUs_1 {
   display: flex;
@@ -194,16 +231,16 @@ tbody {
 .ContentPage_3 .InfoPage_3 h2 {
   color: #000;
   font-size: 24px;
-  font-family: Tenor Sans;
+  font-family: "Tenor Sans", sans-serif;
   line-height: 150%;
-  padding-bottom: 40px;
 }
 .ContentPage_3 .InfoPage_3 p {
   color: #000;
   font-size: 18px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 150%;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 .ContentPage_3 .InfoPage_3 .ButtonPage_2 {
@@ -217,6 +254,178 @@ tbody {
   color: #f6f6f6;
   text-align: center;
   font-size: 16px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   line-height: 150%;
+}
+.Page_3_AboutUs_2 {
+  display: flex;
+  padding-left: 140px;
+  padding-top: 160px;
+}
+.Page_3_AboutUs_2 h2 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.VideoAboutUs_2 video {
+  width: 1160px;
+  height: 700px;
+}
+/*Page_4.............................................................................................*/
+.Page_4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.HeadingPage_4 {
+  padding-bottom: 100px;
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+  padding-left: 140px;
+}
+.Contents1Page_4 {
+  display: flex;
+  background: #e3dace;
+}
+.Contents2Page_4 {
+  display: flex;
+  background: #d4cdc3;
+}
+.ImgPage_4 img {
+  width: 720px;
+  height: 536.33px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ContentPage_4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  padding-left: 41px;
+  width: 562px;
+}
+.ContentPage_4 h1 {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 24px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.ContentPage_4 h2 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  width: 700px;
+  padding-top: 40px;
+}
+.ContentPage_4 .ButtonPage_4 {
+  display: flex;
+  padding-top: 70px;
+}
+.ButtonPage_4 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #a1b29f;
+  color: #f6f6f6;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+  line-height: 150%;
+}
+.ButtonPage_4 button:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.ButtonPage_4 button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.ButtonPage_4 button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.Img2Page_4 img {
+  width: 720px;
+  height: 536.33px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Content2Page_4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  padding-left: 40px;
+  width: 562px;
+}
+.Content2Page_4 h1 {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 24px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+  padding-top: 17px;
+}
+.Content2Page_4 h2 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+.Content2Page_4 .Button2Page_4 {
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 94px;
+}
+.Button2Page_4 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #a1b29f;
+  color: #f6f6f6;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+  line-height: 150%;
+}
+.Button2Page_4 button:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.Button2Page_4 button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.Button2Page_4 button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
 }
