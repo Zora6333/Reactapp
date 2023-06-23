@@ -86,7 +86,34 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="Page_3"></div>
+        <div className="Page_3">
+          <h1>NIKASON BRAND это семейная мастеркая</h1>
+          <div className="ContentPage_3">
+            <div className="AboutUs_1">
+              <img src="./src/component/Img/Page 3/Rectangle 55.jpg" />
+              <div className="InfoPage_3">
+                <h2>Саргылана и Никита Колодезниковы-Матчитовы</h2>
+                <p>
+                  Саргылана - рестовратор-декоратор, преображает и дарит вторую
+                  жизнь старой мебели. 
+                  <br/>
+                  <br/>Никита - мастер по дереву, вся мебель
+                  делается его умелыми руками.
+                </p>
+                <div className="ButtonPage_2">
+                  <button className="More about us">Подробнее о нас</button>
+                </div>
+              </div>
+            </div>
+
+            <div className="AboutUs_2">
+            <h2>Посмотрите видео о нас</h2>
+            <div className="VideoAboutUs_2">
+              
+            </div>
+            </div>
+          </div>
+        </div>
         <div className="Page_4"></div>
         <div className="Page_5"></div>
       </div>

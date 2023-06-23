@@ -146,10 +146,8 @@ tbody {
   width: 1160px;
 }
 .TablePage_2 tr {
-
 }
 .TablePage_2 td {
-
   align-items: center;
   border: 1px solid;
   width: 290px;
@@ -158,4 +156,67 @@ tbody {
 .TablePage_2 tr td img {
   height: 100px;
   width: 100px;
+}
+/*Page_3.........................................................................................*/
+.Page_3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  padding-left: 140px;
+}
+.Page_3 h1 {
+  color: #57463a;
+  font-size: 48px;
+  font-weight: 50;
+  font-family: Tenor Sans;
+  line-height: 150%;
+}
+.ContentPage_3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 100px;
+}
+.ContentPage_3 .AboutUs_1 img {
+  width: 704px;
+  height: 475px;
+}
+.ContentPage_3 .AboutUs_1 {
+  display: flex;
+  flex-direction: row;
+}
+.ContentPage_3 .InfoPage_3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 515px;
+}
+.ContentPage_3 .InfoPage_3 h2 {
+  color: #000;
+  font-size: 24px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+  padding-bottom: 40px;
+}
+.ContentPage_3 .InfoPage_3 p {
+  color: #000;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-weight: 300;
+  line-height: 150%;
+  padding-bottom: 40px;
+}
+.ContentPage_3 .InfoPage_3 .ButtonPage_2 {
+  padding-top: 52px;
+}
+.ContentPage_3 .InfoPage_3 .ButtonPage_2 button {
+  width: 245px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #a1b29f;
+  color: #f6f6f6;
+  text-align: center;
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 150%;
 }
