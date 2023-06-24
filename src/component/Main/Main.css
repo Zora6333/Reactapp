@@ -11,7 +11,7 @@
   align-items: flex-start;
   background-color: #f3efea;
   width: 100%;
-  height: 6796px;
+  height: auto;
 }
 /*Page_1...................................................................*/
 .Page_1 {
@@ -361,7 +361,9 @@ tbody {
   font-size: 18px;
   font-weight: 100;
 }
-
+.Img2Page_4 {
+  height: 536.33px;
+}
 .Img2Page_4 img {
   width: 720px;
   height: 536.33px;
@@ -394,6 +396,7 @@ tbody {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 150%;
+  padding-top: 40px;
 }
 .Content2Page_4 .Button2Page_4 {
   display: flex;
@@ -428,4 +431,61 @@ tbody {
   color: white;
   font-size: 18px;
   font-weight: 100;
+}
+/*Page_5.......................................................................................*/
+.Page_5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 214px;
+  padding-left: 25%;
+  padding-bottom: 223px;
+}
+.ContentsPage_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 200px;
+  border: 1px  #A1B29F solid; width: 1135px;
+  height: 563px; padding: 5px 15px 5px 15px;
+}
+.ContentPage_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 7px  #A1B29F solid; width: 1160px;
+  height: 590px; padding: 5px 15px 5px 15px;
+}
+.ContentPage_5 h1 {
+  display: flex;
+  width: 658px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 106px;
+  color: #57463a;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.ContentPage_5 h2 {
+  display: flex;
+  width: 922px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 40px;
+  color: #000;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+.ImgPage_5 {
+  mix-blend-mode: darken;
+  background-color: #f3efea;
+  padding-left: 45%;
+  padding-bottom: 51px;
 }

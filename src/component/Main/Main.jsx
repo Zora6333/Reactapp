@@ -175,7 +175,22 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className="Page_5"></div>
+        <div className="Page_5">
+          <div className="ContentsPage_5">
+            <div className="ContentPage_5">
+              <h1>Гарантия качества мебели от NIKASON BRAND</h1>
+              <h2>
+                На каждое изделие ставим авторский логотип (клеймо) как знак
+                качества и узнаваемости мастера. Таким образом мастер несёт
+                ответственность за каждое изделие помеченное печатью. Есть
+                гарантия на 12 месяцев.{" "}
+              </h2>
+              <div className="ImgPage_5">
+                <img src="./src/component/Img/Page 4/IMG_1024 2.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
