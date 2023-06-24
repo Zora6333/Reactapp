@@ -16,6 +16,18 @@
   align-items: center;
   padding-left: 15%;
 }
-nav {
+ul {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-left: 52px;
+    padding-top: 5%;
+}
+li{
+  padding-top: 10px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
 }
