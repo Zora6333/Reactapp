@@ -243,10 +243,10 @@ tbody {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.ContentPage_3 .InfoPage_3 .ButtonPage_2 {
+.ContentPage_3 .InfoPage_3 .ButtonPage_3 {
   padding-top: 52px;
 }
-.ContentPage_3 .InfoPage_3 .ButtonPage_2 button {
+.ContentPage_3 .InfoPage_3 .ButtonPage_3 button {
   width: 245px;
   height: 60px;
   flex-shrink: 0;
@@ -257,6 +257,7 @@ tbody {
   font-family: "Open Sans", sans-serif;
   line-height: 150%;
 }
+
 .Page_3_AboutUs_2 {
   padding-left: 140px;
   padding-top: 160px;

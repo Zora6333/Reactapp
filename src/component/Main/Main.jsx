@@ -1,6 +1,13 @@
 import React from "react";
 import "../Main/Main.css";
 
+
+const ButtonPage3 = document.querySelector('.Moreaboutus');
+console.log(ButtonPage3)
+
+
+
+
 const Main = () => {
   return (
     <>
@@ -20,13 +27,13 @@ const Main = () => {
               <button>Смотреть услуги</button>
             </div>
             <div className="IconsPage_1">
-              <a>
+              <a href="https://t.me/NIKASON_BRAND">
                 <img src="./src/component/Img/Page 1/Group 12.jpg" />
               </a>
-              <a>
+              <a href="https://www.instagram.com/mebel_ot_nikason/">
                 <img src="./src/component/Img/Page 1/Group 4.jpg" />
               </a>
-              <a>
+              <a href="https://api.whatsapp.com/send?phone=79679272227">
                 <img src="./src/component/Img/Page 1/Group 3.jpg" />
               </a>
             </div>
@@ -120,14 +127,14 @@ const Main = () => {
                   Никита - мастер по дереву, вся мебель делается его умелыми
                   руками.
                 </p>
-                <div className="ButtonPage_2">
-                  <button className="More about us">Подробнее о нас</button>
+                <div className="ButtonPage_3">
+                  <button className="Moreaboutus" data-scroll="section-2">Подробнее о нас</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="Page_3_AboutUs_2">
+        <div className="Page_3_AboutUs_2" id="section-2">
           <h2>Посмотрите видео о нас</h2>
           <div className="VideoAboutUs_2">
             <video>

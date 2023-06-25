@@ -22,13 +22,13 @@ const Footer = () => {
             </ul>
           </nav>
           <div className="IconsFooter">
-            <a>
+            <a href="https://t.me/NIKASON_BRAND">
               <img src="./src/component/Img/FooterImg/Group 13.jpg" />
             </a>
-            <a>
+            <a href="https://www.instagram.com/mebel_ot_nikason/">
               <img src="./src/component/Img/FooterImg/Group 4.jpg" />
             </a>
-            <a>
+            <a href="https://api.whatsapp.com/send?phone=79679272227">
               <img src="./src/component/Img/FooterImg/Group 3.jpg" />
             </a>
           </div>
