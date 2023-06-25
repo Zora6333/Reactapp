@@ -6,29 +6,32 @@ const Footer = () => {
     <>
       <div className="Footer">
         <div className="Navigechion">
-          <p>ИП Колодезников-Матчитов Н.И. 
-            <br/>ИНН 143515646663</p>
-            <nav>
-              <ul>
-                <li>Мастер-классы</li>
-                <li>Мебель на заказ</li>
-                <li>Контакты</li>
-                <li>О нас</li>
-                <li>Политика кофиденциальности</li>
-                <li>Договор оферты</li>
-              <div className="Icons">
-              <a>
-                <img src="./src/component/Img/Page 1/Group 12.jpg" />
-              </a>
-              <a>
-                <img src="./src/component/Img/Page 1/Group 4.jpg" />
-              </a>
-              <a>
-                <img src="./src/component/Img/Page 1/Group 3.jpg" />
-              </a>
-              </div>
-              </ul>
-            </nav>
+          <p>
+            ИП Колодезников-Матчитов Н.И.
+            <br />
+            ИНН 143515646663
+          </p>
+          <nav className="NavFooter">
+            <ul className="UlFooter">
+              <li className="LiFooter">Мастер-классы</li>
+              <li className="LiFooter">Контакты</li>
+              <li className="LiFooter">Политика кофиденциальности</li>
+              <li className="LiFooter">Мебель на заказ</li>
+              <li className="LiFooter">О нас</li>
+              <li className="LiFooter">Договор оферты</li>
+            </ul>
+          </nav>
+          <div className="IconsFooter">
+            <a>
+              <img src="./src/component/Img/FooterImg/Group 13.jpg" />
+            </a>
+            <a>
+              <img src="./src/component/Img/FooterImg/Group 4.jpg" />
+            </a>
+            <a>
+              <img src="./src/component/Img/FooterImg/Group 3.jpg" />
+            </a>
+          </div>
         </div>
       </div>
     </>
