@@ -15,6 +15,9 @@
   align-items: center;
   padding-left: 15%;
 }
+.Navigechion p{
+padding-right: 280px;
+}
 .UlFooter {
   width: 100%;
   display: grid;

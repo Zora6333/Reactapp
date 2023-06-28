@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.ButtonCustomfur {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 243px;
+}
+.ButtonCustomfur button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 245px;
+  height: 60px;
+  flex-shrink: 0;
+  background: #a1b29f;
+  color: #F6F6F6;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 150%;
+}
+.ButtonCustomfur button:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+}
+
+.ButtonCustomfur button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.ButtonCustomfur button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+.modalAboutUs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #4f95da url(../img/Modal/1643941564_45-phonoteka-org-p-fon-bezhevii-shelk-51.jpg) center/cover;
+  height: 500px;
+  width: 500px;
+}
+.modalAboutUs input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
+  .ClossModal{
+    padding: 10px;
+  }

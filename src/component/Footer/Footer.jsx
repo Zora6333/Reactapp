@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../Footer/Footer.css";
 
 const Footer = () => {
@@ -13,12 +14,12 @@ const Footer = () => {
           </p>
           <nav className="NavFooter">
             <ul className="UlFooter">
-              <li className="LiFooter">Мастер-классы</li>
-              <li className="LiFooter">Контакты</li>
-              <li className="LiFooter">Политика кофиденциальности</li>
-              <li className="LiFooter">Мебель на заказ</li>
-              <li className="LiFooter">О нас</li>
-              <li className="LiFooter">Договор оферты</li>
+              <Link  id="LINK" className="LiFooter">Мастер-классы</Link>
+              <Link id="LINK" to='/Contacts'>Контакты</Link>
+              <Link  id="LINK" to='/Politics' className="LiFooter">Политика кофиденциальности</Link>
+              <Link id="LINK" to='/Customfur'>Мебель на заказ</Link>
+              <Link id="LINK" to="/AboutUs">О нас</Link>
+              <Link id="LINK" className="LiFooter">Договор оферты</Link>
             </ul>
           </nav>
           <div className="IconsFooter">

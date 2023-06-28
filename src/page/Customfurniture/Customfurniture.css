@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tenor+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.AboutUsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f3efea;
+  width: 100%;
+  height: auto;
+}
+
+/*Page_1.......................................................*/
+.CustomfurniturePage_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  background: url("./src/page/Customfurniture/img/IMG_6437 1.jpg") no-repeat
+    center;
+  background-size: cover;
+}
+.CustomfurniturePage_1 p {
+  padding-top: 217px;
+  color: #f6f6f6;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.CustomfurniturePage_1 h1 {
+  color: #f6f6f6;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.CustomfurniturePage_1 h1:last-child {
+  padding-top: 25px;
+}
+
+/*Page_2.......................................................*/
+.CustomfurniturePage_2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+.CustomfurniturePage_2 h1 {
+  display: flex;
+  padding-left: 134px;
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 168px;
+}
+.advantages {
+  display: grid;
+  padding-left: 134px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 100px;
+}
+.SolidFur {
+  display: flex;
+  padding-top: 10px;
+  width: 300px;
+  border-bottom: solid 5px #715b4b;
+}
+
+.advantages h3 {
+  color: #323232;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.advantages p {
+  color: #323232;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding-top: 20px;
+}
+.advantages_1,
+.advantages_2,
+.advantages_3,
+.advantages_4,
+.advantages_5,
+.advantages_6 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 78px;
+  width: 55%;
+}
+/*Page_3.......................................................*/
+.CustomfurniturePage_3 {
+  display: flex;
+  padding-left: 134px;
+  flex-direction: column;
+  width: 100%;
+}
+.CustomfurniturePage_3 h1 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.collectionimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.PresentIMG img{
+  width: 500px;
+  height: 500px;
+}
+.roulette {
+  display: flex;
+  padding-bottom: 160px;
+}
