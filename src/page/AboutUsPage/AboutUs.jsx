@@ -4,9 +4,10 @@ import "./AboutUs.css";
 const AboutUsPage = () => {
   return (
     <>
+    <div className="AboutUsPage">
       <div className="HistoryPage">
-        <h1>История создания мастерской</h1>
-        <h1>NIKASON BRAND</h1>
+        <h1 className="FirstText">История создания мастерской</h1>
+        <h1 className="">NIKASON BRAND</h1>
         <img src="./src/page/AboutUsPage/img/Rectangle 83.jpg"/>
         <div className="Statistics">
           <div className="Parameter_1">
@@ -26,6 +27,7 @@ const AboutUsPage = () => {
       <div className="MasterPage"></div>
       <div className="PhilosophyPage"></div>
       <div className="ConnectionPage"></div>
+      </div>
     </>
   );
 };
