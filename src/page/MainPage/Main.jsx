@@ -1,17 +1,14 @@
 import React from "react";
-import "../Main/Main.css";
+import "./Main.css";
+import ButtonPage1 from "./Button/ButtonPage1/ButtonPage1";
+import ButtonPage3 from "./Button/ButtonPage3/ButtonPage3";
+import ButtonPage4_1 from "./Button/ButtonPage4_1/ButtonPage4_1";
+import ButtonPage4_2 from "./Button/ButtonPage4_2/ButtonPage4_2";
 
-
-const ButtonPage3 = document.querySelector('.Moreaboutus');
-console.log(ButtonPage3)
-
-
-
-
-const Main = () => {
+const MainPage = () => {
   return (
     <>
-      <div className="Main">
+      <div className="MainPage">
         <div className="SolidPage_1"></div>
         <div className="Page_1">
           <div className="ImgPage_1">
@@ -23,9 +20,7 @@ const Main = () => {
             <h2>
               Авторская мебель ручной работы, сделанная с душой и трепетом.
             </h2>
-            <div className="ButtonPage_1">
-              <button>Смотреть услуги</button>
-            </div>
+            <ButtonPage1 />
             <div className="IconsPage_1">
               <a href="https://t.me/NIKASON_BRAND">
                 <img src="./src/component/Img/Page 1/Group 12.jpg" />
@@ -127,23 +122,25 @@ const Main = () => {
                   Никита - мастер по дереву, вся мебель делается его умелыми
                   руками.
                 </p>
-                <div className="ButtonPage_3">
-                  <button className="Moreaboutus" data-scroll="section-2">Подробнее о нас</button>
-                </div>
+                <ButtonPage3 />
               </div>
             </div>
           </div>
         </div>
         <div className="Page_3_AboutUs_2" id="section-2">
           <h2>Посмотрите видео о нас</h2>
-          <div className="VideoAboutUs_2">
+          <div className="VideoAboutUs_2" id="section-2">
             <video>
-              <source src="./src/component/Img/Page 3406081364.mp4"></source>
+              <source
+                id="VideoAboutUs"
+                src="./src/component/Img/Page%203/406081364.mp4"
+                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+              />
             </video>
           </div>
         </div>
 
-        <div className="Page_4">
+        <div className="Page_4" id="your-section-id">
           <h1 className="HeadingPage_4">Наши услуги</h1>
           <div className="Contents1Page_4">
             <div className="ImgPage_4">
@@ -158,9 +155,7 @@ const Main = () => {
                 неповторимого стиля, уникальность и неповторимость каждого
                 изделия.
               </h2>
-              <div className="ButtonPage_4">
-                <button>Смотреть услуги</button>
-              </div>
+              <ButtonPage4_1 />
             </div>
           </div>
           <div className="Contents2Page_4">
@@ -176,9 +171,7 @@ const Main = () => {
                 мебели, но и с теплотой помнить, что эта мебель была сделана
                 талантливыми предками.
               </h2>
-              <div className="Button2Page_4">
-                <button>Смотреть услуги</button>
-              </div>
+              <ButtonPage4_2 />
             </div>
           </div>
         </div>
@@ -203,4 +196,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainPage;

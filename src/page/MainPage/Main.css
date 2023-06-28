@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.Main {
+.MainPage {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -65,40 +65,6 @@
   line-height: 150%;
   width: 700px;
   padding-top: 40px;
-}
-.ContentPage_1 .ButtonPage_1 {
-  display: flex;
-  padding-top: 70px;
-  padding-bottom: 94px;
-}
-.ButtonPage_1 button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 245px;
-  height: 60px;
-  flex-shrink: 0;
-  background: #a1b29f;
-  color: #f6f6f6;
-  text-align: right;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 150%;
-  line-height: 150%;
-}
-.ButtonPage_1 button:hover {
-  transition: 1s ease-in-out;
-  background: #4f95da;
-}
-
-.ButtonPage_1 button:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.ButtonPage_1 button span {
-  color: white;
-  font-size: 18px;
-  font-weight: 100;
 }
 .IconsPage_1 {
   display: flex;
@@ -243,21 +209,6 @@ tbody {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.ContentPage_3 .InfoPage_3 .ButtonPage_3 {
-  padding-top: 52px;
-}
-.ContentPage_3 .InfoPage_3 .ButtonPage_3 button {
-  width: 245px;
-  height: 60px;
-  flex-shrink: 0;
-  background: #a1b29f;
-  color: #f6f6f6;
-  text-align: center;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 150%;
-}
-
 .Page_3_AboutUs_2 {
   padding-left: 140px;
   padding-top: 160px;
@@ -271,6 +222,11 @@ tbody {
 .VideoAboutUs_2 video {
   width: 1160px;
   height: 700px;
+}
+#VideoAboutUs{
+  display: flex;
+  width: 1160px;
+  height: 700px; 
 }
 /*Page_4.............................................................................................*/
 .Page_4 {
@@ -334,39 +290,6 @@ tbody {
   width: 700px;
   padding-top: 40px;
 }
-.ContentPage_4 .ButtonPage_4 {
-  display: flex;
-  padding-top: 70px;
-}
-.ButtonPage_4 button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 245px;
-  height: 60px;
-  flex-shrink: 0;
-  background: #a1b29f;
-  color: #f6f6f6;
-  text-align: right;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 150%;
-  line-height: 150%;
-}
-.ButtonPage_4 button:hover {
-  transition: 1s ease-in-out;
-  background: #4f95da;
-}
-
-.ButtonPage_4 button:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.ButtonPage_4 button span {
-  color: white;
-  font-size: 18px;
-  font-weight: 100;
-}
 .Img2Page_4 {
   height: 536.33px;
 }
@@ -404,40 +327,6 @@ tbody {
   font-weight: 300;
   line-height: 150%;
   padding-top: 40px;
-}
-.Content2Page_4 .Button2Page_4 {
-  display: flex;
-  padding-top: 70px;
-  padding-bottom: 94px;
-}
-.Button2Page_4 button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 245px;
-  height: 60px;
-  flex-shrink: 0;
-  background: #a1b29f;
-  color: #f6f6f6;
-  text-align: right;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 150%;
-  line-height: 150%;
-}
-.Button2Page_4 button:hover {
-  transition: 1s ease-in-out;
-  background: #4f95da;
-}
-
-.Button2Page_4 button:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.Button2Page_4 button span {
-  color: white;
-  font-size: 18px;
-  font-weight: 100;
 }
 /*Page_5.......................................................................................*/
 .Page_5 {

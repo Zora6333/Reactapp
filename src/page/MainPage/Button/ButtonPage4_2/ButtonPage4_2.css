@@ -1,0 +1,34 @@
+.Content2Page_4 .Button2Page_4 {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 94px;
+  }
+  .Button2Page_4 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #a1b29f;
+    color: #f6f6f6;
+    text-align: right;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 150%;
+    line-height: 150%;
+  }
+  .Button2Page_4 button:hover {
+    transition: 1s ease-in-out;
+    background: #4f95da;
+  }
+  
+  .Button2Page_4 button:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .Button2Page_4 button span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
