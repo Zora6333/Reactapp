@@ -96,10 +96,9 @@
 }
 .Page_2 ul {
   display: flex;
-  justify-content: center;
-  padding-top: 100px;
   width: 100%;
-  justify-content: space-around;
+  padding: 100px 10%;
+  justify-content: space-between;
 }
 .AssortmentPage_2 h1 {
   color: #57463a;
@@ -109,7 +108,6 @@
 }
 .Page_2 ul li {
   display: flex;
-  justify-content: center;
   width: 298px;
   flex-direction: column;
   color: #323232;
@@ -219,14 +217,14 @@ tbody {
   font-family: "Tenor Sans", sans-serif;
   line-height: 150%;
 }
-.VideoAboutUs_2 video {
-  width: 1160px;
-  height: 700px;
-}
-#VideoAboutUs{
+.VideoAboutUs_2 {
   display: flex;
-  width: 1160px;
-  height: 700px; 
+  justify-content: flex-start;
+}
+#VideoPage_3{
+  padding: 100px 0 200px;
+  width: 1440px;
+  height: 979px;
 }
 /*Page_4.............................................................................................*/
 .Page_4 {

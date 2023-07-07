@@ -1,11 +1,18 @@
 import React from "react";
+import YouTube from 'react-youtube';
 import "./Main.css";
 import ButtonPage1 from "./Button/ButtonPage1/ButtonPage1";
 import ButtonPage3 from "./Button/ButtonPage3/ButtonPage3";
 import ButtonPage4_1 from "./Button/ButtonPage4_1/ButtonPage4_1";
 import ButtonPage4_2 from "./Button/ButtonPage4_2/ButtonPage4_2";
 
+
+
+
+
+
 const MainPage = () => {
+  const videoId = 'V1L2zyCRHjY'; // ID видео с YouTube
   return (
     <>
       <div className="MainPage">
@@ -130,13 +137,7 @@ const MainPage = () => {
         <div className="Page_3_AboutUs_2" id="section-2">
           <h2>Посмотрите видео о нас</h2>
           <div className="VideoAboutUs_2" id="section-2">
-            <video>
-              <source
-                id="VideoAboutUs"
-                src="./src/component/Img/Page%203/406081364.mp4"
-                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-              />
-            </video>
+          <YouTube id="VideoPage_3" videoId={videoId} />
           </div>
         </div>
 
