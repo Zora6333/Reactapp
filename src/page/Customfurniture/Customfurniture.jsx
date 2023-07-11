@@ -1,24 +1,9 @@
 import React from "react";
 import ButtonCustomfur from "./ButtonCustomfur/ButtonCustomfur";
+import FotoSlide from "./FotoSlide/FotoSlide";
 import "../Customfurniture/Customfurniture.css";
 
 const Customfurniture = () => {
-  var slides = document.querySelectorAll('.slide');
-  var currentSlide = 0;
-  var slideInterval;
-  
-  function startSlideshow() {
-    slideInterval = setInterval(nextSlide, 2000);
-  }
-
-  function nextSlide() {
-    slides[currentSlide].classList.remove('active');
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].classList.add('active');
-  }
-  
-  startSlideshow();
-
   return (
     <>
       <div className="Customfurniture ">
@@ -67,36 +52,49 @@ const Customfurniture = () => {
         </div>
         <div className="CustomfurniturePage_3">
           <h1>Портфолио</h1>
-          <div class="slideshow-container">
-            <div class="slide">
-              <img
-                src="./src\page\Customfurniture\img\Page_3\IMG_6067 1.jpg" alt="Slide 1"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5628 1.jpg" alt="Slide 2"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5669 1.jpg" alt="Slide 3"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5694 1.jpg" alt="Slide 4"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5697 1.jpg" alt="Slide 5"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5778 1.jpg" alt="Slide 6"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5822 1.jpg" alt="Slide 7"/>
-            </div>
-            <div class="slide">
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_6067 1.jpg" alt="Slide 8"/>
-            </div>
+          <FotoSlide />
+        </div>
+        <div className="CustomfurniturePage_4">
+          <h1>Этапы производства</h1>
+          <div className="Table_CustomfurniturePage_4">
+            <table>
+              <tr>
+                <td>
+                  <h2>1</h2>
+                  <br />
+                  <p>Встреча с клиентом</p>
+                </td>
+                <td>
+                  <h2>2</h2>
+                  <br />
+                  <p>Подписание договора, внесение предоплаты</p>
+                </td>
+                <td>
+                  <h2>3</h2>
+                  <br />
+                  <p>Выезд к клиенту на замер (при необходимости)</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>4</h2>
+                  <br />
+                  <p>Составление проекта</p>
+                </td>
+                <td>
+                  <h2>5</h2>
+                  <br />
+                  <p>Изготовление и согласование всех стадий с клиентом</p>
+                </td>
+                <td>
+                  <h2>6</h2>
+                  <br />
+                  <p>Доставка и монтаж изделия (при необходимости)</p>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
-
-        <div className="CustomfurniturePage_4"></div>
         <div className="CustomfurniturePage_5"></div>
         <div className="CustomfurniturePage_6"></div>
       </div>
