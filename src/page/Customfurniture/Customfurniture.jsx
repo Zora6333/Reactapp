@@ -2,9 +2,23 @@ import React from "react";
 import ButtonCustomfur from "./ButtonCustomfur/ButtonCustomfur";
 import "../Customfurniture/Customfurniture.css";
 
-
-
 const Customfurniture = () => {
+  var slides = document.querySelectorAll('.slide');
+  var currentSlide = 0;
+  var slideInterval;
+  
+  function startSlideshow() {
+    slideInterval = setInterval(nextSlide, 2000);
+  }
+
+  function nextSlide() {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }
+  
+  startSlideshow();
+
   return (
     <>
       <div className="Customfurniture ">
@@ -53,21 +67,35 @@ const Customfurniture = () => {
         </div>
         <div className="CustomfurniturePage_3">
           <h1>Портфолио</h1>
-          <div className="collectionimg">
-            <div className="PresentIMG"><img src="./src\page\Customfurniture\img\Page_3\IMG_6067 1.jpg"/></div>
-            <div className="roulette">
-                <img src="./src/page/Customfurniture/img/Page_3/Group 29.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5628 1.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5669 1.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5694 1.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5697 1.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5778 1.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_5822 1.jpg"/>
-              <img src="./src\page\Customfurniture\img\Page_3\IMG_6067 1.jpg"/>
-              <img src="./src/page/Customfurniture/img/Page_3/Group 28.jpg"/>
+          <div class="slideshow-container">
+            <div class="slide">
+              <img
+                src="./src\page\Customfurniture\img\Page_3\IMG_6067 1.jpg" alt="Slide 1"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_5628 1.jpg" alt="Slide 2"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_5669 1.jpg" alt="Slide 3"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_5694 1.jpg" alt="Slide 4"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_5697 1.jpg" alt="Slide 5"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_5778 1.jpg" alt="Slide 6"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_5822 1.jpg" alt="Slide 7"/>
+            </div>
+            <div class="slide">
+              <img src="./src\page\Customfurniture\img\Page_3\IMG_6067 1.jpg" alt="Slide 8"/>
             </div>
           </div>
         </div>
+
         <div className="CustomfurniturePage_4"></div>
         <div className="CustomfurniturePage_5"></div>
         <div className="CustomfurniturePage_6"></div>
