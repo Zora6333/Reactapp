@@ -103,7 +103,6 @@
 /*Page_3.......................................................*/
 .CustomfurniturePage_3 {
   display: flex;
-  padding-left: 134px;
   flex-direction: column;
   width: 100%;
   background: #F3EFEA;
@@ -115,6 +114,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  padding-left: 134px;
 }
 /*Page_4.................................................*/
 .CustomfurniturePage_4{

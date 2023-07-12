@@ -83,13 +83,6 @@ const FotoSlide = () => {
           className="zoomable-image"
         />
       </div>
-      <div className="slide">
-        <img
-          src="./src/page/Customfurniture/img/Page_3/IMG_6067 1.jpg"
-          alt="Slide 8"
-          className="zoomable-image"
-        />
-      </div>
     </div>
   );
 };
