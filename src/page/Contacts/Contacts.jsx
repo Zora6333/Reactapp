@@ -4,12 +4,24 @@ import "../Contacts/Contacts.css";
 const Contacts = () => {
   return (
     <>
-      <div className="Contacts">
-        <a href="https://api.whatsapp.com/send?phone=79679272227"><img src="./src/component/Img/Page 1/Group 3.jpg" id="ICONCONTACT"/></a>
-        <a href="https://www.instagram.com/mebel_ot_nikason/"><img src="./src/component/Img/Page 1/Group 4.jpg" id="ICONCONTACT"/></a>
-        <a href="https://t.me/NIKASON_BRAND"><img src="./src/component/Img/Page 1/Group 12.jpg" id="ICONCONTACT"/></a>
-        <a href="tel:+79001111111"><img src="./src/page/Contacts/free-icon-phone-call-5585856.png" id="ICONCONTACT"/></a>
-      </div>
+    <ul className="wrapper">
+      <li className="icon facebook">
+        <span className="tooltip">Facebook</span>
+        <span><i className="fab fa-facebook-f"><img src="./src\page\Contacts\img\free-icon-facebook-4494475.png" alt="" /></i></span>
+      </li>
+      <li className="icon twitter">
+        <span className="tooltip">Twitter</span>
+        <span><i className="fab fa-twitter"><img src="./src\page\Contacts\img\free-icon-twitter-4401446.png" alt="" /></i></span>
+      </li>
+      <li className="icon instagram">
+        <span className="tooltip">Instagram</span>
+        <span><i className="fab fa-instagram"><img src="./src\page\Contacts\img\free-icon-instagram-3955024.png" alt="" /></i></span>
+      </li>
+      <li className="icon youtube">
+        <span className="tooltip">Youtube</span>
+        <span><i className="fab fa-youtube"><img src="./src\page\Contacts\img\free-icon-youtube-4494485.png" alt="" /></i></span>
+      </li>
+    </ul>
     </>
   );
 };

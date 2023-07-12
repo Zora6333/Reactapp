@@ -18,6 +18,7 @@ const AboutUsPage = () => {
   }
   return (
     <>
+    <hr/>
       <div className="AboutUsPage">
         <div className="HistoryPage">
           <h1 className="FirstText">История создания мастерской</h1>

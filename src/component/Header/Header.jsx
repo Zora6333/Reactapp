@@ -11,7 +11,7 @@ const Header = () => {
         </p>
         <nav className="NavHeader">
           <ul className="UlHeader">
-            <Link id="LINK">Мастер-классы</Link>
+            <Link id="LINK" to='/MasterClass'>Мастер-классы</Link>
             <Link id="LINK" to='/Customfur'>Мебель на заказ</Link>
             <Link id="LINK" to="/"><img className="ImgHeader" src="./src/component/Img/HeaderImg/IMG_1024 1.jpg"/></Link>
             <Link id="LINK" to='/Contacts'>Контакты</Link>

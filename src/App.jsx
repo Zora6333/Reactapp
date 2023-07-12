@@ -7,6 +7,7 @@ import NotFound from "./page/NotFound/NotFound";
 import Contacts from "./page/Contacts/Contacts";
 import Castomfurniture from './page/Customfurniture/Customfurniture'
 import Politics from './page/Politics/Politics'
+import MasterClass from './page/MasterClass/MasterClass'
 import "./App.css";
 
 
@@ -17,6 +18,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<MainPage />} />
+            <Route path="/MasterClass" element={<MasterClass />} />
             <Route path="/AboutUs" element={<AboutUsPage />} />
             <Route path="/Contacts" element={<Contacts />} />
             <Route path="/Customfur" element={<Castomfurniture />} />

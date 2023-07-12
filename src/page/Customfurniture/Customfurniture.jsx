@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonCustomfur from "./ButtonCustomfur/ButtonCustomfur";
 import FotoSlide from "./FotoSlide/FotoSlide";
+import Page_5_reviews from './Page_5_reviews/Page_5_reviews'
 import "../Customfurniture/Customfurniture.css";
 
 const Customfurniture = () => {
@@ -58,45 +59,53 @@ const Customfurniture = () => {
           <h1>Этапы производства</h1>
           <div className="Table_CustomfurniturePage_4">
             <table>
-              <tr>
-                <td>
-                  <h2>1</h2>
-                  <br />
-                  <p>Встреча с клиентом</p>
-                </td>
-                <td>
-                  <h2>2</h2>
-                  <br />
-                  <p>Подписание договора, внесение предоплаты</p>
-                </td>
-                <td>
-                  <h2>3</h2>
-                  <br />
-                  <p>Выезд к клиенту на замер (при необходимости)</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h2>4</h2>
-                  <br />
-                  <p>Составление проекта</p>
-                </td>
-                <td>
-                  <h2>5</h2>
-                  <br />
-                  <p>Изготовление и согласование всех стадий с клиентом</p>
-                </td>
-                <td>
-                  <h2>6</h2>
-                  <br />
-                  <p>Доставка и монтаж изделия (при необходимости)</p>
-                </td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>
+                    <h2>1</h2>
+                    <br />
+                    <p>Встреча с клиентом</p>
+                  </td>
+                  <td>
+                    <h2>2</h2>
+                    <br />
+                    <p>Подписание договора, внесение предоплаты</p>
+                  </td>
+                  <td>
+                    <h2>3</h2>
+                    <br />
+                    <p>Выезд к клиенту на замер (при необходимости)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>4</h2>
+                    <br />
+                    <p>Составление проекта</p>
+                  </td>
+                  <td>
+                    <h2>5</h2>
+                    <br />
+                    <p>Изготовление и согласование всех стадий с клиентом</p>
+                  </td>
+                  <td>
+                    <h2>6</h2>
+                    <br />
+                    <p>Доставка и монтаж изделия (при необходимости)</p>
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
-        <div className="CustomfurniturePage_5"></div>
-        <div className="CustomfurniturePage_6"></div>
+        <div className="CustomfurniturePage_5">
+          <h1>Клиенты о нас</h1>
+          <Page_5_reviews />
+        </div>
+        <div className="CustomfurniturePage_6">
+          <h1>Оставьте заявку и мы с вами свяжемся</h1>
+          <ButtonCustomfur />
+        </div>
       </div>
     </>
   );

@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
           <nav className="NavFooter">
             <ul className="UlFooter">
-              <Link  id="LINK" className="LiFooter">Мастер-классы</Link>
+              <Link  id="LINK" to='/MasterClass' className="LiFooter">Мастер-классы</Link>
               <Link id="LINK" to='/Contacts'>Контакты</Link>
               <Link  id="LINK" to='/Politics' className="LiFooter">Политика кофиденциальности</Link>
               <Link id="LINK" to='/Customfur'>Мебель на заказ</Link>

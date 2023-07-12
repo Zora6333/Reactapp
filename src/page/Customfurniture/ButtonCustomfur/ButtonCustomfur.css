@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 .ButtonCustomfur {
@@ -15,10 +15,10 @@
   height: 60px;
   flex-shrink: 0;
   background: #a1b29f;
-  color: #F6F6F6;
+  color: #f6f6f6;
   text-align: center;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   line-height: 150%;
 }
@@ -44,21 +44,32 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #4f95da url(../img/Modal/1643941564_45-phonoteka-org-p-fon-bezhevii-shelk-51.jpg) center/cover;
+  background: linear-gradient(
+    287deg,
+    rgba(184, 139, 82, 1) 0%,
+    rgba(184, 139, 82, 1) 10%,
+    rgba(184, 139, 82, 1) 58%,
+    rgba(121, 133, 133, 1) 73%,
+    rgba(46, 49, 60, 1) 89%
+  );
+  background: rgb(184, 139, 82)
+    url(../img/Modal/1643941564_45-phonoteka-org-p-fon-bezhevii-shelk-51.jpg)
+    center/cover;
   height: 500px;
   width: 500px;
 }
-.modalAboutUs input[type=text] {
-  width: 100%;
+.modalAboutUs input[type="text"] {
+  width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
+  border-radius: 5%;
   box-sizing: border-box;
-  }
-  .ClossModal{
-    display: flex;
-    padding: 10px;
-    border-radius: 20%;
-  }
+}
+.ClossModal {
+  display: flex;
+  padding: 10px;
+  border-radius: 20%;
+}
 
 :root {
   --glow-color: hsl(186 100% 69%);
@@ -261,7 +272,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .glowing-btn{
+  .glowing-btn {
     font-size: 1em;
   }
 }

@@ -126,7 +126,7 @@
 .TablePage_2 {
   display: flex;
 }
-tbody {
+.TablePage_2 tbody {
   border-collapse: collapse;
   width: 1160px;
   padding-top: 100px;
