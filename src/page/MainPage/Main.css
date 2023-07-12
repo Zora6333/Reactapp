@@ -387,3 +387,82 @@
   padding-left: 45%;
   padding-bottom: 51px;
 }
+@media (max-width: 1578px) and (min-width: 1440px) {
+  #VideoPage_3{
+    width: 1040px;
+  }
+  .Page_5 {
+    padding-left: 10%;
+  }
+  .Footer {
+    height: 150px;
+}
+}
+@media (max-width: 1450px) and (min-width: 1024px) {
+  .Page_5 {
+    padding-left: 2%;
+  } 
+  .ContentsPage_5 {
+     width: auto; 
+     padding: 0;
+}
+.ContentPage_5 {
+  width: auto;
+  padding: 0;
+}
+  .ContentPage_4 h2 {
+     width: auto; 
+}
+#VideoPage_3{
+  width: 250%;
+}
+.Page_3_AboutUs_2 {
+  padding-left: 2%;
+}
+.Page_2 ul {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContentPage_4 h1 {
+  width: auto;
+}
+.Content2Page_4 h1 {
+  width: auto;
+}
+.TablePage_2 td {
+  width: 190px;
+}
+.ContentPage_1 .ButtonPage_1 {
+  width: 30%;
+}
+.IconsPage_1 {
+  width: 30%;
+padding-bottom: 0; 
+padding-left: 0;
+}
+.ContentPage_1 h2 {
+  width: 60%;
+}
+.ContentPage_1 h1 {
+  width: 75%;
+ font-size: 28px;
+}
+.ContentPage_1 p {
+width: 70%;
+}
+.ContentPage_3 .InfoPage_3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  width: 50%;
+}
+.ContentPage_1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 198.5px;
+  padding-left: 0;
+ width: auto; 
+}
+}
