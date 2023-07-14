@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import MainPage from "./page/MainPage/Main";
 import AboutUsPage from "./page/AboutUsPage/AboutUs";
 import Layout from "./component/Layout/Layout";
@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<MainPage />} />
@@ -26,7 +26,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
