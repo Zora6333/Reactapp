@@ -2,7 +2,7 @@
   "name": "react-project-work",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://zora6333.github.io/Reactapp/",
+  "homepage": "https://zora6333.github.io/Reactapp /",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

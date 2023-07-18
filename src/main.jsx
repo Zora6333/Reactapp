@@ -8,6 +8,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
   () => {
-    // Функция коллбэк, если необходимо выполнить дополнительные операции после рендеринга
+ 
   }
 );
