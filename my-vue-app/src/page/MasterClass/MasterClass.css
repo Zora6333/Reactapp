@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tenor+Sans&display=swap");
+
+
+
+/*Page_1.................................................................................................*/
+.MasterClassPage_1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./src/page/MasterClass/img/majid-gheidarlou-LuI6euS7Dno-unsplash1.jpg);
+  background-size: cover;
+  height: 851px;
+}
+.MasterClassPage_1 h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 267px;
+  color: #f6f6f6;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+/*Page_2......................................................................................*/
+.MasterClassPage_2 {
+  background: #f3efea;
+}
+.MasterClassPage_2 h1 {
+  color: #57463a;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 161px 139px;
+}
+.OurWorks {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  padding-left: 139px;
+}
+.OurWorks div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 261px;
+  padding-bottom: 49px;
+}
+.OurWorks div > p {
+  padding-top: 20px;
+}
+.Button_Seemoreexamples {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+}
+.Button_Seemoreexamples button {
+  width: 328px;
+  height: 60px;
+  background: #a1b29f;
+  color: #f6f6f6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+/*Page_3.......................................................................*/
+.MasterClassPage_3{
+ background: #f3efea; 
+ 
+}
+.MasterClassPage_3 h1 {
+    padding: 70px 139px;
+  color: #57463a;
+  font-family: Tenor Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.MasterClassPage_3 table {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MasterClassPage_3 table img{
+    mix-blend-mode: darken;
+    padding-right: 10px;
+}
+.MasterClassPage_3 table tr {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+
+  .MasterClassPage_1 h1 {
+    font-size: 36px;
+    padding-top: 200px;
+  }
+
+  .ButtonMasterClassPage_1 {
+    padding-top: 50px;
+  }
+
+  .ButtonMasterClassPage_1 button {
+    width: 240px;
+    height: 50px;
+  }
+
+  .MasterClassPage_2 h1 {
+    padding: 100px 20px;
+  }
+
+  .OurWorks {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Добавьте стили, которые должны применяться на экранах с шириной до 480 пикселей */
+  .MasterClassPage_1 h1 {
+    font-size: 24px;
+    padding-top: 150px;
+  }
+
+  .ButtonMasterClassPage_1 {
+    padding-top: 30px;
+  }
+
+  .ButtonMasterClassPage_1 button {
+    width: 180px;
+    height: 40px;
+  }
+
+  .MasterClassPage_2 h1 {
+    padding: 50px 10px;
+    font-size: 36px;
+  }
+
+  .OurWorks {
+    padding-left: 10px;
+  }
+
+  .OurWorks div {
+    width: 200px;
+    padding-bottom: 30px;
+  }
+}

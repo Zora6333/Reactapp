@@ -1,0 +1,15 @@
+.ButtonMasterClassPage_1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 97px;
+  }
+  .ButtonMasterClassPage_1 button {
+    width: 328px;
+    height: 60px;
+    color: #4c6d77;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }

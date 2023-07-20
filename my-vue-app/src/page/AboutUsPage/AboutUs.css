@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tenor+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.AboutUsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f3efea;
+  width: 100%;
+  height: auto;
+}
+/*Page_1.......................................................*/
+.HistoryPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.FirstText {
+  color: #57463a;
+  font-size: 48px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+  padding-top: 120.5px;
+}
+.SecondText {
+  color: #57463a;
+  text-align: center;
+  font-size: 48px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+  padding-top: 13px;
+}
+.FotoPerson {
+  width: 1160px;
+  height: 536.5px;
+  padding-top: 40px;
+}
+.Statistics {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 157.5px;
+}
+.Statistics h1 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+}
+.Statistics p {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 150%;
+  padding-top: 20px;
+}
+.Parameter_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Parameter_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Parameter_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Page_2.......................................................*/
+.MasterPage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 15%;
+  padding-top: 160px;
+}
+.MasterPage img {
+  width: 460px;
+  height: 462px;
+}
+.TextPage_2 {
+  width: 660px;
+  padding-left: 40px;
+}
+.TextPage_2 h2 {
+  color: #000;
+  font-size: 24px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+}
+.TextPage_2 p {
+  color: #000;
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 150%;
+}
+.TextPage_2 p:first-of-type {
+  padding-top: 20px;
+}
+.TextPage_2 p:last-child {
+  display: flex;
+
+  flex-direction: column;
+  padding-top: 70px;
+}
+/*Page_3.......................................................*/
+.PhilosophyPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 15%;
+}
+.PhilosophyPage h1 {
+  padding-top: 160px;
+  color: #57463a;
+  font-size: 48px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+}
+.FirstPPhilosophy {
+  display: flex;
+  justify-content: end;
+  padding-top: 70px;
+}
+.PhilosophyPage p:last-child {
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+}
+.ImgNews {
+  display: flex;
+  justify-content: center;
+}
+.ImgNews img {
+  padding-top: 100px;
+  padding-left: 2%;
+}
+/*Page_4.......................................................*/
+.ConnectionPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 15%;
+}
+.ConnectionPage h1 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: Tenor Sans;
+  line-height: 150%;
+  padding-top: 10%;
+}

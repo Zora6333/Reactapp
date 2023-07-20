@@ -1,0 +1,14 @@
+.ButtonPage_3 {
+    padding-top: 52px;
+  }
+.ButtonPage_3 button {
+    width: 245px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #a1b29f;
+    color: #f6f6f6;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 150%;
+  }

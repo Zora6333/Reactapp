@@ -1,0 +1,23 @@
+.slideshow-container{
+    display: flex;
+    width: 100%;
+    padding: 100px 3% 0;
+  }
+  .slide>img{
+    padding-right: 10px;
+    height: 250px;
+    width: 250px;
+    transition: transform 0.5s;
+  }
+  .slide img:hover {
+    cursor: pointer;
+    transform: scale(1.2); 
+  }
+  .zoomable-image {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  .zoomable-image:hover {
+    transform: scale(2.1);
+  }

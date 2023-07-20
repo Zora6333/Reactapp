@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Tenor+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f3efea;
+  width: 100%;
+  height: auto;
+}
+/*Page_1...................................................................*/
+.Page_1 {
+  display: flex;
+  height: 774px;
+}
+.SolidPage_1 {
+  width: 100%;
+  border-bottom: solid 1px #000000;
+}
+.ImgPage_1 img {
+  width: 719px;
+  height: 774px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ContentPage_1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 198.5px;
+  padding-left: 40px;
+  width: 562px;
+}
+.ContentPage_1 p {
+  display: flex;
+  color: #323232;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+.ContentPage_1 h1 {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 120%;
+  padding-top: 17px;
+}
+.ContentPage_1 h2 {
+  color: #323232;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  width: 700px;
+  padding-top: 40px;
+}
+.IconsPage_1 {
+  display: flex;
+  padding-bottom: 98px;
+  padding-left: 65%;
+  background-color: #f3efea;
+}
+.IconsPage_1 a {
+  padding-right: 40px;
+  background-color: #f3efea;
+}
+.IconsPage_1 a > img {
+  mix-blend-mode: darken;
+  background-color: #f3efea;
+}
+/*Page_2......................................................*/
+.Page_2 {
+  padding-left: 135px;
+  width: 100%;
+}
+.Page_2 h1 {
+  display: flex;
+  color: #57463a;
+  text-align: center;
+  font-size: 48px;
+  line-height: 120%;
+  font-family: "Tenor Sans", sans-serif;
+  padding-top: 160px;
+}
+.Page_2 ul {
+  display: flex;
+  width: 100%;
+  padding: 100px 10%;
+  justify-content: space-between;
+}
+.AssortmentPage_2 h1 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.Page_2 ul li {
+  display: flex;
+  width: 298px;
+  flex-direction: column;
+  color: #323232;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+.Solid {
+  display: flex;
+  padding-top: 14px;
+  width: 300px;
+  border-bottom: solid 5px #715b4b;
+}
+.TablePage_2 {
+  display: flex;
+}
+.TablePage_2 tbody {
+  border-collapse: collapse;
+  width: 1160px;
+  padding-top: 100px;
+}
+.TablePage_2 tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.TablePage_2 td {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  width: 290px;
+  height: 240px;
+  padding-top: 20%;
+}
+.TablePage_2 td p {
+  color: #323232;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 102.99%;
+  padding-top: 20px;
+}
+.TablePage_2 tr td img {
+  height: 100px;
+  width: 100px;
+}
+/*Page_3.........................................................................................*/
+.Page_3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+}
+.Page_3 h1 {
+  padding-left: 140px;
+  color: #57463a;
+  font-size: 48px;
+  font-weight: 50;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.ContentPage_3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 100px;
+}
+.ContentPage_3 .AboutUs_1 img {
+  width: 704px;
+  height: 475px;
+  padding-left: 0;
+}
+.ContentPage_3 .AboutUs_1 {
+  display: flex;
+  flex-direction: row;
+}
+.ContentPage_3 .InfoPage_3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 515px;
+}
+.ContentPage_3 .InfoPage_3 h2 {
+  color: #000;
+  font-size: 24px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.ContentPage_3 .InfoPage_3 p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.Page_3_AboutUs_2 {
+  padding-left: 140px;
+  padding-top: 160px;
+}
+.Page_3_AboutUs_2 h2 {
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.VideoAboutUs_2 {
+  display: flex;
+  justify-content: flex-start;
+}
+#VideoPage_3{
+  padding: 100px 0 200px;
+  width: 1440px;
+  height: 979px;
+}
+/*Page_4.............................................................................................*/
+.Page_4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.HeadingPage_4 {
+  padding-bottom: 100px;
+  color: #57463a;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+  padding-left: 140px;
+}
+.Contents1Page_4 {
+  display: flex;
+  background: #e3dace;
+}
+.Contents2Page_4 {
+  display: flex;
+  background: #d4cdc3;
+}
+.ImgPage_4 {
+  height: 535.33px;
+}
+.Img2Page_4{
+  height: 535.33px;
+}
+.ImgPage_4 img {
+  width: 720px;
+  height: 536.33px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ContentPage_4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  padding-left: 41px;
+  width: 562px;
+}
+.ContentPage_4 h1 {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 24px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.ContentPage_4 h2 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  width: 700px;
+  padding-top: 40px;
+}
+.Img2Page_4 {
+  height: 536.33px;
+}
+.Img2Page_4 img {
+  width: 720px;
+  height: 536.33px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Content2Page_4 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  padding-left: 40px;
+  width: 562px;
+  height: 536.33px;
+}
+.Content2Page_4 h1 {
+  display: flex;
+  width: 514px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-size: 24px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+  padding-top: 17px;
+}
+.Content2Page_4 h2 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  padding-top: 40px;
+}
+/*Page_5.......................................................................................*/
+.Page_5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 214px;
+  padding-left: 25%;
+  padding-bottom: 223px;
+}
+.ContentsPage_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 200px;
+  border: 1px #a1b29f solid;
+  width: 1135px;
+  height: 563px;
+  padding: 5px 15px 5px 15px;
+}
+.ContentPage_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 7px #a1b29f solid;
+  width: 1160px;
+  height: 590px;
+  padding: 5px 15px 5px 15px;
+}
+.ContentPage_5 h1 {
+  display: flex;
+  width: 658px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 106px;
+  color: #57463a;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 150%;
+}
+.ContentPage_5 h2 {
+  display: flex;
+  width: 922px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 40px;
+  color: #000;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+}
+.ImgPage_5 {
+  mix-blend-mode: darken;
+  background-color: #f3efea;
+  padding-left: 45%;
+  padding-bottom: 51px;
+}
+@media (max-width: 1578px) and (min-width: 1440px) {
+  #VideoPage_3{
+    width: 1040px;
+  }
+  .Page_5 {
+    padding-left: 10%;
+  }
+  .Footer {
+    height: 150px;
+}
+}
+@media (max-width: 1450px) and (min-width: 1024px) {
+  .Page_5 {
+    padding-left: 2%;
+  } 
+  .ContentsPage_5 {
+     width: auto; 
+     padding: 0;
+}
+.ContentPage_5 {
+  width: auto;
+  padding: 0;
+}
+  .ContentPage_4 h2 {
+     width: auto; 
+}
+#VideoPage_3{
+  width: 250%;
+}
+.Page_3_AboutUs_2 {
+  padding-left: 2%;
+}
+.Page_2 ul {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContentPage_4 h1 {
+  width: auto;
+}
+.Content2Page_4 h1 {
+  width: auto;
+}
+.TablePage_2 td {
+  width: 190px;
+}
+.ContentPage_1 .ButtonPage_1 {
+  width: 30%;
+}
+.IconsPage_1 {
+  width: 30%;
+padding-bottom: 0; 
+padding-left: 0;
+}
+.ContentPage_1 h2 {
+  width: 60%;
+}
+.ContentPage_1 h1 {
+  width: 75%;
+ font-size: 28px;
+}
+.ContentPage_1 p {
+width: 70%;
+}
+.ContentPage_3 .InfoPage_3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  width: 50%;
+}
+.ContentPage_1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 198.5px;
+  padding-left: 0;
+ width: auto; 
+}
+}

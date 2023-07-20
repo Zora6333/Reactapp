@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: row;
+  background-color: #f3efea;
+  width: 100%;
+  height: 138px;
+}
+.NavHeader {
+  flex-direction: row;
+  display: flex;
+  width: 90%;
+}
+.UlHeader {
+  width: 80%;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.ImgHeader {
+  mix-blend-mode: multiply;
+}
